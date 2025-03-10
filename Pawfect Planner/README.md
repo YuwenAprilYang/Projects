@@ -6,9 +6,8 @@ This project helps pet owners make informed decisions based on their dog's uniqu
 
 ## 🔍 Key Highlights  
 - **Dog Breed Information:** Scraped Wikipedia’s *List of Dog Breeds* using **BeautifulSoup** to collect breed names, origins, and basic traits.  
-- **Pet Event Finder:** Used the **Yelp API** to discover pet-friendly events within a specified radius of the user’s location.  
-- **Enhanced UX:** Displays breed-specific details (e.g., size, temperament, origin) and event details, including event name, date, location, and website link.  
-- **NLP for Breed Characteristics:** Plans to use NLP techniques to extract more detailed breed traits for better recommendations.  
+- **Personalized Recommendations:** Displays breed-specific details, alongside relevant events, locations and weather information.  
+- **User-Friendly Experience:** Provides structured, easy-to-read event details, including event name, date, location, and website link.  
 
 ## 🚀 Future Enhancements  
 - **Event Filtering:** Allow users to filter events by type, date range, and personal preferences.  
