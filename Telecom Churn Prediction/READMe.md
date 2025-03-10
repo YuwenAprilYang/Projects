@@ -1,4 +1,7 @@
 # 📡 Telecom Churn Prediction: Identifying At-Risk Customers Using Machine Learning  
+**Code:** [Telecom Churn Prediction Jupyter Notebook](https://github.com/YuwenAprilYang/Projects/blob/451a81c4c3d01b720966a6be1705995074e2f5d5/Telecom%20Churn%20Prediction/Telecom%20Churn%20Prediction%20Code.ipynb)  
+**Report:** [Telecom Churn Prediction Report](https://github.com/YuwenAprilYang/Projects/blob/451a81c4c3d01b720966a6be1705995074e2f5d5/Telecom%20Churn%20Prediction/Telecom%20Churn%20Report.pdf)  
+
 **Tools:** Python, Scikit-Learn, XGBoost, Pandas, Matplotlib, SMOTE  
 
 This project applies machine learning techniques to predict customer churn in the telecom industry using a real-world dataset. With customer retention being a major challenge, this study explores key factors influencing churn and builds predictive models to help telecom companies implement data-driven retention strategies.  
