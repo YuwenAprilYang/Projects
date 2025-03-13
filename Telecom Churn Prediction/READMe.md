@@ -1,5 +1,5 @@
 # 📡 Telecom Churn Prediction: Identifying At-Risk Customers Using Machine Learning  
-**Code:** [Telecom Churn Prediction Jupyter Notebook](https://github.com/YuwenAprilYang/Projects/blob/451a81c4c3d01b720966a6be1705995074e2f5d5/Telecom%20Churn%20Prediction/Telecom%20Churn%20Prediction%20Code.ipynb)  
+**Code:** [Telecom Churn Prediction Jupyter Notebook](https://github.com/YuwenAprilYang/Projects/blob/fb55da9e5eb18f691663ccb018458a8ae663a907/Telecom%20Churn%20Prediction/Telecom%20Churn%20Prediction%20Code.ipynb)  
 **Report:** [Telecom Churn Prediction Report](https://github.com/YuwenAprilYang/Projects/blob/451a81c4c3d01b720966a6be1705995074e2f5d5/Telecom%20Churn%20Prediction/Telecom%20Churn%20Report.pdf)  
 
 **Tools:** Python, Scikit-Learn, XGBoost, Pandas, Matplotlib, SMOTE  
