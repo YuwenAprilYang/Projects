@@ -19,14 +19,3 @@ The dataset used for this project is downloaded from [Spotify](https://www.spoti
 - Insightful Analysis: Summarize my listening behavior with comprehensive insights; Modify the analysis to explore different aspects of my personal music journey.
 
 🎶 **Check out the detailed code to explore the rhythms and beats hidden within my Spotify streaming history!**  
-
-  ---
-# ✨Spotify Wrapped-- My Musical Journey  
-**Code:** [Spotify Wrapped](https://github.com/YuwenAprilYang/Projects/blob/6de81b9b12d35cfe0b6b95c73c792dcf496dd45e/Spotify%20Analysis/Spotify%20Wrapped.ipynb)  
-This project taps into my Spotify account via the Spotipy API to fetch top trakcs over different time periods: short-term, medium-term, and long-term. By comparing these snapshots, I can see how my music preferences evolve and get a glimpse of my listening habits across various timeframes.  
-_Tools: Python, Pandas, API, Request, OAuth_  
-
-## 🎧Key Features  
-- Spotify API Integration: Use the Spotipy API and OAuth for samless access to my Spotify account.
-- Top Track Extraction: Automatically extract key details like track name, album and artist for each time period.
-- Data Wrangling: Clean and organize raw streaming data into informative DataFrames.
