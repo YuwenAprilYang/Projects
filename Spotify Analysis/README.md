@@ -22,7 +22,7 @@ The dataset used for this project is downloaded from [Spotify](https://www.spoti
 
   ---
 # ✨Spotify Wrapped-- My Musical Journey  
-**Code:** [Spotify Wrapped](https://github.com/YuwenAprilYang/Projects/blob/6de81b9b12d35cfe0b6b95c73c792dcf496dd45e/Spotify%20Analysis/Spotify%20Wrapped.ipynb)
+**Code:** [Spotify Wrapped](https://github.com/YuwenAprilYang/Projects/blob/6de81b9b12d35cfe0b6b95c73c792dcf496dd45e/Spotify%20Analysis/Spotify%20Wrapped.ipynb)  
 This project taps into my Spotify account via the Spotipy API to fetch top trakcs over different time periods: short-term, medium-term, and long-term. By comparing these snapshots, I can see how my music preferences evolve and get a glimpse of my listening habits across various timeframes.  
 _Tools: Python, Pandas, API, Request, OAuth_  
 
