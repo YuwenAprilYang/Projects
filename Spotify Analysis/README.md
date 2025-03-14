@@ -19,7 +19,7 @@ The dataset used for this project is downloaded from [Spotify](https://www.spoti
 - Insightful Analysis: Summarize my listening behavior with comprehensive insights; Modify the analysis to explore different aspects of my personal music journey.
 
 🎶 **Check out the detailed code to explore the rhythms and beats hidden within my Spotify streaming history!**  
-  
+  ---
 # ✨Spotify Wrapped-- My Musical Journey  
 **Code:** [Spotify Wrapped]
 This project taps into my Spotify account via the Spotipy API to fetch top trakcs over different time periods: short-term, medium-term, and long-term. By comparing these snapshots, I can see how my music preferences evolve and get a glimpse of my listening habits across various timeframes.  
