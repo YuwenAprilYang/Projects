@@ -17,4 +17,20 @@ Exploratory Data Analysis (EDA) is the critical first step in any data-driven pr
 - **Interactive Distribution Plots**: Select any numeric column to display a histogram + KDE; selection persists via session state.  
 - **Performance Optimizations**: Caches data loading to minimize latency on repeated interactions.
 
+## 🛠️ How to Get Started
+1. Clone the GitHub repository
+
+```bash
+git clone git clone https://github.com/YuwenAprilYang/Projects.git
+cd Projects/EDA Generator
+```
+2. Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+3. Run the Streamlit App
+```bash
+streamlit run app.py
+```
 📊 **Check out the code to get started!**  
