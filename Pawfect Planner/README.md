@@ -18,7 +18,7 @@ Pet care platforms, dog walkers, and owners often face fragmented decision-makin
 
 This project answers:
 
-How can we intelligently combine local data, breed traits, and weather conditions to help pet owners plan more enjoyable and responsible outings?
+>How can we intelligently combine local data, breed traits, and weather conditions to help pet owners plan more enjoyable and responsible outings?
 
 ## Key Metrics Analyzed
 - Weather conditions
