@@ -30,15 +30,56 @@ Among all tested models, XGBoost outperformed Logistic Regression, Decision Tree
 - **Recall:** 98.2% – The model successfully captured nearly all actual churners, critical for minimizing undetected revenue loss.  
 - **Precision:** 96.9% – Most customers predicted to churn actually did, reducing unnecessary retention costs.  
 - **F1 Score:** 98.0% – Balances Precision and Recall, indicating strong overall classification performance.  
-- **ROC AUC:** 94.8% – Demonstrates the model’s ability to distinguish churners from non-churners effectively.
+- **ROC AUC:** 94.8% – Demonstrates the model’s ability to distinguish churners from non-churners effectively.  
+> 📌 **Business takeaway:** These features are not only predictive but provide direct paths for improving retention.  
+
+![Screenshot 2025-04-12 at 15 34 13](https://github.com/user-attachments/assets/eec096da-2935-4153-adc3-808de2044892)
+![Screenshot 2025-04-12 at 15 34 38](https://github.com/user-attachments/assets/1f2be20d-b52e-420f-b2e4-ce41ecc74c15)
+
+
+**2. Three Key Drivers of Churn Identified via SHAP analysis**  
+Feature importance analysis using SHAP revealed the top contributors to churn:
+- **Monthly Charges:**
+High charges correlated with higher churn, suggesting dissatisfaction with pricing or perceived value.  
+  *→ Actionable insight: Introduce tiered plans, discounts, or bundled packages.*
+
+- **International Plan Subscription:**  
+  Customers with international plans churned more often, likely due to unclear fees or poor experience.  
+  *→ Actionable insight: Redesign or better communicate international offerings.*
+
+- **Customer Service Calls:**  
+  A strong positive correlation was found between frequent support interactions and churn.  
+  *→ Actionable insight: Improve service resolution and implement first-call resolution practices.*  
+
+![Screenshot 2025-04-12 at 15 34 48](https://github.com/user-attachments/assets/05bd7702-ca4b-4980-bc35-9563ed7300d4)
 
 
 > 🔍 **Business takeaway:** The model can reliably identify at-risk customers, enabling proactive and cost-effective retention strategies.
 
+**3. Customer Segmentation Enabled Tiered Retention Strategy**  
+Customers were segmented by predicted churn probability into three risk levels:
 
-## 🚀 Future Enhancements  
-- Implement **deep learning models** for further performance improvements.  
-- Deploy a **real-time churn prediction system** for dynamic customer insights.  
-- Incorporate **additional customer engagement metrics** to refine predictions.  
+- **High-risk (>66%)** – Immediate intervention: exclusive offers, dedicated support, contract extensions.  
+- **Medium-risk (33–66%)** – Preventive strategies: proactive outreach, flexible billing, loyalty nudges.  
+- **Low-risk (<33%)** – Long-term engagement: upselling opportunities, referral incentives.
 
-📊 **Check out the detailed report and code to explore more insights!**  
+> 🧩 **Business takeaway:** Tiered interventions allow businesses to optimize retention spend and focus on the most valuable customers.
+
+
+
+## Recommendation
+- **Retain High-Value Churn-Risk Customers**  
+  Focus retention efforts on customers with high usage and billing but frequent complaints. Offer customized loyalty packages or rate adjustments to reduce churn.  
+- **Improve International Plan Offerings**  
+Churn is higher among international plan users. Introduce flat-rate options or bundled promotions tailored to frequent international callers.  
+
+- **Enhance Customer Support Experience**  
+High customer service call frequency correlates with churn. Implement first-call resolution goals, AI-based help centers, and satisfaction follow-ups to improve service quality.  
+
+- **Target Medium-Risk Segments Before Escalation**  
+Provide nudges, surveys, or minor incentives to medium-risk customers showing early signs of dissatisfaction.  
+
+- **Embed the Model into CRM Systems**  
+Allow real-time churn scoring to inform frontline staff and marketers, enabling timely and personalized outreach.
+
+### 📊 Check out the detailed report and code to explore more insights!
