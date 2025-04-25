@@ -9,18 +9,30 @@
 
 ## Executive Summary
 As natural disasters become more frequent and social misinformation spreads faster than emergency response systems can react, cities are left vulnerable.  
-_AI City Scout_ is a real-time, AI-powered disaster intelligence dashboard designed to predict disasters, flag fake social media posts, and generate actionable emergency plans — all within seconds.  
   
-This project was awarded First Prize (Innovator's Summit Award) at the 2025 Aggie Hackathon for innovation, intelligence modeling and impact potential.
+**_AI City Scout_ is a real-time, AI-powered disaster intelligence dashboard designed to predict disasters, flag fake social media posts, and generate actionable emergency plans — all within seconds.**  
+  
+This project was awarded **First Prize (Innovator's Summit Award)** at the 2025 Aggie Hackathon for innovation, intelligence modeling and impact potential.
 
 ## Business Problem
 In crisis situations like floods or earthquakes, city leaders face overwhelming volumes of noisy data and misinformation. Key questions we address:  
-> What type of disaster is unfolding right now, and where?
-> Is social media reporting false information?
-> How severe are the consequences?
-> What immediate actions should the city take?
+> - What type of disaster is unfolding right now, and where?  
+> - Is social media reporting false information?  
+> - How severe are the consequences?  
+> - What immediate actions should the city take?
 
-## Data & Methodology
+## System Overview
+AI City Scout contains **three insteractive modules:**
+1. **Future Predictions**  
+Uses real-time sensor + weather data to detect and predict disasters; Assesses hospital overload risk and severity; Generates AI-intergrated strategic plan
+  
+2. **Social Media Detector**  
+Verifies tweet claiming a disaster by cross-checking sensor data near the time and location of the tweet
+  
+3. **Past Disasters Explorer**  
+Interactive map showing historical disasters (2010-2015), allowing users to understand patterns and cascading risks
+
+## Data Preprocessing
 Dataset: 
 - 50,000+ rows across sensors, weather, social media, infrastructure maps  
   
@@ -29,7 +41,8 @@ Preprocessing:
 - Sensor classification via rule-based logic
 - Location matching using geopy and GeoJSON infrastructure maps
 - Data fusion of time-series, spatial, and text features  
-  
+
+## Core Models & Methods
 Models:  
 - Disaster Severity Prediction: Rule-based logic + weather-based mapping
 - Hospital Overload Risk: Random Forest Classifier trained on severity, disaster type and hospital proximity (92% accuracy)
@@ -43,11 +56,11 @@ https://github.com/user-attachments/assets/ee36f817-154d-48cc-bb60-cb39abcac1dc
 
 
 https://github.com/user-attachments/assets/c35cedfc-f4ef-4eff-8fb1-c628a2e247f9
-
+  
 _2. Flags fake disaster-related tweets by validating against physical evidence (user's input of time, location and text)_  
 
 https://github.com/user-attachments/assets/1fe9310c-deb2-400c-bdbb-9433a5a42c1a
-
+  
 _3. Aggregates and visualizes historical events to uncover patterns_  
 
 https://github.com/user-attachments/assets/1e68c290-2e1d-4822-8c8f-87ea2717fdc2
